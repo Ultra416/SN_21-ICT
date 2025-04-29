@@ -19,3 +19,7 @@ class I:
 
     def list_name_last_name(self):
         return [self.name, self.last_name]
+
+student = I("Стас", "Кравчик", 2007)
+print(student.Indentfy_COURSE())
+print(student.list_name_last_name())
